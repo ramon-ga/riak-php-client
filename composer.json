@@ -1,6 +1,6 @@
 {
-  "name": "basho/riak",
-  "description": "Official Riak client for PHP",
+  "name": "hn0/riak-php-client",
+  "description": "Riak client for PHP",
   "type": "library",
   "keywords": [
     "basho",
