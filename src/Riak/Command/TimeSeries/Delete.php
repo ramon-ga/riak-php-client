@@ -12,6 +12,9 @@ use Basho\Riak\CommandInterface;
  */
 class Delete extends Command implements CommandInterface
 {
+
+    protected $method = 'DELETE';
+
     /**
      * Stores the table name
      *
@@ -48,4 +51,5 @@ class Delete extends Command implements CommandInterface
         $this->table = $builder->getTable();
         $this->key = $builder->getKey();
     }
+
 }
